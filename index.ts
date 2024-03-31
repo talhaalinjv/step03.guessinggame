@@ -13,7 +13,7 @@ const gn = await inquirer.prompt([
 ]);
 
 if (gn.guessno === rn) {
-  console.log("\n Wow you have guessed correct number");
+  console.log("\n Wow! you have guessed correct number");
 } else {
   console.log(
     "\n Oh no! you have guessed wrong number. \n The correct number was " + rn
